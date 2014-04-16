@@ -2,6 +2,28 @@
 
 A thin "proxy" API in front of the [Tidepool](http://tidepool.org/) platform used to simplify backend calls made by [Blip](https://github.com/tidepool-org/blip).
 
+Table of contents:
+
+- [Status](#status)
+    - [GET /status](#get-status)
+- [User](#user)
+    - [POST /user](#post-user)
+    - [POST /user/login](#post-userlogin)
+    - [GET /user/login](#get-userlogin)
+    - [POST /user/logout](#post-userlogout)
+    - [GET /user/config](#get-userconfig)
+    - [GET /user](#get-user)
+    - [PUT /user](#put-user)
+    - [GET /user/:id](#get-userid)
+- [Shares](#shares)
+    - [POST /shares](#post-shares)
+    - [GET /shares](#get-shares)
+    - [GET /shares/:id/about](#get-sharesidabout)
+    - [GET /shares/:id/stream](#get-sharesidstream)
+    - [GET /shares/:id/messages/:id/thread](#get-sharesidmessagesidthread)
+    - [POST /shares/:id/messages/:id/comments](#post-sharesidmessagesidcomments)
+    - [POST /shares/:id/messages](#post-sharesidmessages)
+
 ## Status
 
 ### GET /status
